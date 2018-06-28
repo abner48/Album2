@@ -1,0 +1,76 @@
+/* estilos das paginas index.html, categorias.html, flores.html, etc... */
+body {
+    padding-bottom: 20px; /* padding para o rodape fixo */
+}
+.navbar {
+    background: rgba(24,255,255,0.5);
+    border: 0px solid;
+}
+ul.nav.navbar-nav>li>a{
+    color: #fff;
+}
+ul.nav.navbar-nav>li>a:hover{
+    color: #337ab7;
+}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    background-color: #2196f3;
+}
+/* .navbar-collapse {
+    color: #00b0ff;
+} */
+.logo1 {
+    margin-top: -5px;
+    height: 30px;
+}
+#destaque1 h1 {
+    padding-top: 50px;
+}
+#destaque1 h1, #destaque1 p {
+    text-align: center;
+    color: #fff;
+    text-shadow: 0px 0px 5px #222;
+}
+.img-peq {
+    width: 120px;
+    height: 80px;
+}
+.img-med {
+    width: 140px;
+    height: 100px;
+}
+.img-quad {
+    width: 120px;
+    height: 120px;
+}
+.img-fundo1 {
+    background-image: url('../images/animais/animais.jpg');
+    height: 350px;
+}
+.img-fundo2 {
+    background-image: url('../images/flores/flores.jpg');
+    height: 350px;
+}
+.img-fundo3 {
+    background-image: url('../images/paisagens/paisagens.jpg');
+    height: 350px;
+}
+.img-fundo4 {
+    background-image: url('../images/templos/foto05.jpg');
+    height: 350px;
+}
+.img-fundo5 {
+    background-image: url('../images/animes/animes.jpg');
+    height: 350px;
+}
+.img-fundo6 {
+    background-image: url('../images/carros/carros.jpg');
+    height: 350px;
+}
+.img-fundo0 {
+    background-image: url('../images/quem-somos.jpg');
+	background-position: center;
+	/*background-repeat: no-repeat;
+	background-size: contain;*/
+    height: 350px;
+}
+
